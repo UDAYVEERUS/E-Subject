@@ -87,19 +87,19 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <i className="bx bx-map"></i>
-                    2750 Quadra Street Golden Victoria Road, New York, USA
+                    H-53, H Block, Sector 62, Noida, Uttar Pradesh 201301.
                   </li>
                   <li>
                     <i className="bx bx-phone-call"></i>
-                    <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                    <a href="tel:+91-7303956035">+91- 7303956035</a>
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>
-                    <a href="mailto:hello@elearniv.com">hello@eLearniv.com</a>
+                    <a href="mailto:info@cofly.in">info@cofly.in</a>
                   </li>
                   <li>
                     <i className="bx bxs-inbox"></i>
-                    <a href="tel:+557854578964">+55 785 4578964</a>
+                    <a href="tel:+91-7303956035">+91-7303956035</a>
                   </li>
                 </ul>
               </div>

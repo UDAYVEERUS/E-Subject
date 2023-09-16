@@ -33,7 +33,8 @@ const FunFacts = () => {
 
 					<div className="col-lg-6 col-md-6 col-sm-6">
 						<div className="single-funfacts-box">
-							<h3>{enrolls}</h3>
+							{/* <h3>{enrolls}</h3> */}
+							<h3>39</h3>
 							<p>Enrolled Courses</p>
 						</div>
 					</div>

@@ -111,10 +111,11 @@ const Footer = () => {
               <div className="col-lg-6 col-md-6">
                 <p>
                   <i className="bx bx-copyright"></i>
-                  {currentYear} eLearniv is Proudly Powered by{' '}
-                  <a target="_blank" href="https://envytheme.com/" rel="noreferrer">
-                    EnvyTheme
+                  {currentYear} Powered by{' '}
+                  <a target="_blank" href="https://cofly.in/" rel="noreferrer">
+                    cofly.in  
                   </a>
+                  &nbsp;All Right Reserved.
                 </p>
               </div>
 

@@ -1,6 +1,6 @@
 const baseUrl =
 	process.env.NODE_ENV === "production"
 		? "https://www.cofly.in"
-		: "http://localhost:3000";
+		: "https://www.cofly.in";
 
 export default baseUrl;

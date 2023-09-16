@@ -1,5 +1,6 @@
-import { Course, User, Enrolment, Video, Course_Asset } from "database/models";
+import { Sequelize } from "sequelize";
 
+import { Course, User, Enrolment, Video, Course_Asset } from "database/models"
 export default async function handler(req, res) {
 	try {
 		const students = await User.count({

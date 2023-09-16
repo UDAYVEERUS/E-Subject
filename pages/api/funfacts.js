@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-
+import mysql2 from 'mysql2'
 import { Course, User, Enrolment, Video, Course_Asset } from "database/models"
 export default async function handler(req, res) {
 	try {

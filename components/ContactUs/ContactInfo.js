@@ -18,7 +18,7 @@ const ContactInfo = () => {
               <i className="bx bx-map"></i>
             </div>
             <h3>Our Address</h3>
-            <p>2750 Quadra Street Victoria Road, New York, Canada</p>
+            <p>H-53, H Block, Sector 62, Noida, Uttar Pradesh 201301.</p>
           </li>
           <li>
             <div className="icon">
@@ -26,10 +26,10 @@ const ContactInfo = () => {
             </div>
             <h3>Contact</h3>
             <p>
-              Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a>
+              Mobile: <a href="tel:+91-7303956035">+91-7303956035</a>
             </p>
             <p>
-              Mail: <a href="mailto:hello@eLearniv.com">hello@eLearniv.com</a>
+              Mail: <a href="mailto:info@cofly.in">info@cofly.in</a>
             </p>
           </li>
           <li>

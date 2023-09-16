@@ -97,10 +97,10 @@ const Footer = () => {
                     <i className="bx bx-envelope"></i>
                     <a href="mailto:info@cofly.in">info@cofly.in</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bx bxs-inbox"></i>
                     <a href="tel:+91-7303956035">+91-7303956035</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

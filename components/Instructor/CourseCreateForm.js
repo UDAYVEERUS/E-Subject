@@ -20,7 +20,7 @@ const INITIAL_VALUE = {
 	before_price: 0.0,
 	lessons: "",
 	duration: "",
-	image: "",
+	// image: "",
 	access_time: "",
 	requirements: "",
 	what_you_will_learn: "",
@@ -317,7 +317,7 @@ const CourseCreateForm = ({ btnText, is_class }) => {
 							className="form-control file-control"
 							name="image"
 							onChange={handleChange}
-							required={true}
+							required={false}
 						/>
 						<div className="form-text">
 							Upload image size 750x500!

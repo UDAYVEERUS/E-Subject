@@ -27,7 +27,10 @@ const initCourse = (sequelize, Types) => {
 			before_price: DataTypes.FLOAT,
 			lessons: DataTypes.STRING,
 			duration: DataTypes.STRING,
-			image: DataTypes.STRING,
+			image: {
+				type:DataTypes.STRING,
+				defaultValue:"https://res.cloudinary.com/dev-empty/image/upload/v1680583472/dujvw5oy82hy43n6gwd4.jpg"
+			},
 			access_time: {
 				type: DataTypes.ENUM,
 				values: ["Lifetime", "Three Months", "Six Months", "1 Year"],

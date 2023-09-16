@@ -17,14 +17,14 @@ const nextConfig = {
 		JWT_SECRET: "asdfghjklnbvcxzqwertyuiopmkioprewqasderfgnujm",
 		AWS_SES_USER: "",
 		AWS_SES_PASSWORD: "",
-		CLOUD_NAME: "dlvnxg4kc",
-		UPLOAD_PRESETS: "dlvnxg4kc",
+		CLOUD_NAME: "do99yykzs",
+		UPLOAD_PRESETS: "do7psr0g",
 		CLOUDINARY_URL:
-			"https://api.cloudinary.com/v1_1/dlvnxg4kc/image/upload",
+			"https://api.cloudinary.com/v1_1/do99yykzs/image/upload",
 		CLOUDINARY_VIDEO_URL:
-			"https://api.cloudinary.com/v1_1/dlvnxg4kc/video/upload",
+			"https://api.cloudinary.com/v1_1/do99yykzs/video/upload",
 		CLOUDINARY_ZIP_URL:
-			"https://api.cloudinary.com/v1_1/dlvnxg4kc/raw/upload",
+			"https://api.cloudinary.com/v1_1/do99yykzs/raw/upload",
 		STRIPE_SECRET_KEY: "sk_test_51Nqb0lSD0oI6s7GCcgNKfJwXFwdhXfKH7t0oP4C4U2mkrtND41kukflLEZqcXJXXPq5XzBHy2iFosJj0PdMyjbBc00VNsTrta6",
 		STRIPE_PUBLISHABLE_KEY: "pk_test_51Nqb0lSD0oI6s7GC7wkuAqqPIeDwNDcYtL7qlfqbamTAnDKeL6tsTzUYjq6K0WVVzB77eCfwtGFAKSKRv3foKj7y00CGFEDzcC",
 	},

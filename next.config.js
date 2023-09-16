@@ -15,8 +15,8 @@ const nextConfig = {
 	// Update here your access credential
 	env: {
 		JWT_SECRET: "asdfghjklnbvcxzqwertyuiopmkioprewqasderfgnujm",
-		AWS_SES_USER: "",
-		AWS_SES_PASSWORD: "",
+		AWS_SES_USER: "teamcofly@gmail.com",
+		AWS_SES_PASSWORD:"xsmtpsib-d64e8b6f7472615c554888ff657f5c2c009faae2488e056d6b6f187f7a52e1d9-nRNEK7tgP0OhSqjb",
 		CLOUD_NAME: "do99yykzs",
 		UPLOAD_PRESETS: "do7psr0g",
 		CLOUDINARY_URL:

@@ -53,12 +53,12 @@ const CheckoutList = ({
 			<div className="col-lg-2 col-6">
 				<div className="price text-end">
 					<span className="fw-bolder fs-16 me-2 d-inline-block">
-						${price}
+					&#8377;{price}
 					</span>
 					{regular_price > 0 && (
 						<span>
 							<del className="fs-14 text-muted">
-								${regular_price}
+							&#8377;{regular_price}
 							</del>
 						</span>
 					)}

@@ -105,7 +105,8 @@ const CourseCard = ({
 						</li>
 						<li>
 							<i className="flaticon-people"></i>{" "}
-							{enrolments.length} Students
+							{/* {enrolments.length} Students */}
+							39 Students
 						</li>
 					</ul>
 				</div>

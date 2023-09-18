@@ -23,7 +23,7 @@ const CourseRow = ({
 					<a>{title}</a>
 				</Link>
 			</td>
-			<td>${latest_price}</td>
+			<td>&#8377;{latest_price}</td>
 			<td>{category.name}</td>
 			<td>{user.first_name}</td>
 			<td>{videos.length}</td>

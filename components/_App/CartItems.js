@@ -30,9 +30,9 @@ const CartItems = ({
 							</h6>
 							<p className="fs-13 mb-2">By: {instructor}</p>
 							<div className="price fs-13">
-								<strong>${price}</strong>{" "}
+								<strong>&#8377;{price}</strong>{" "}
 								<del className="fs-12 text-muted ms-1">
-									${regular_price}
+								&#8377;{regular_price}
 								</del>
 							</div>
 						</div>

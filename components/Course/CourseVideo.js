@@ -51,6 +51,7 @@ const CourseVideo = ({ current_user, course }) => {
 											{secondsToHms(v.video_length)}
 										</span>
 										{v.is_preview ? (
+											<a target="_blank" href="https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4">
 											<span
 												className="status"
 												onClick={() => {
@@ -60,7 +61,9 @@ const CourseVideo = ({ current_user, course }) => {
 											>
 												preview
 											</span>
+											</a>
 										) : alreadyBuy ? (
+											<a target="_blank" href="https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4">
 											<span
 												className="status"
 												onClick={() => {
@@ -70,6 +73,7 @@ const CourseVideo = ({ current_user, course }) => {
 											>
 												preview
 											</span>
+											</a>
 										) : (
 											<span
 												className="status locked"

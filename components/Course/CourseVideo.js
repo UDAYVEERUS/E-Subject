@@ -85,7 +85,7 @@ const CourseVideo = ({ current_user, course }) => {
 				</ul>
 			</div>
 
-			{preview && <FsLightbox toggler={toggler} sources={[preview]} />}
+			{preview && <FsLightbox toggler={toggler} sources={["https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4"]} />}
 		</>
 	);
 };

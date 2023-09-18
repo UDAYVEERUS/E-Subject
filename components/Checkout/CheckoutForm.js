@@ -81,10 +81,10 @@ const CheckoutForm = ({ user }) => {
 							<div className="col-lg-3 col-md-12">
 								<p className="fs-18 mb-2">Subtotal:</p>
 								<h1 className="fw-bold">
-									${cartAmout}
+								&#8377;{cartAmout}
 									{cartAmoutMinus > 0 && (
 										<del className="d-block fs-18 text-muted mt-2">
-											${cartAmoutMinus}
+											&#8377;{cartAmoutMinus}
 										</del>
 									)}
 								</h1>

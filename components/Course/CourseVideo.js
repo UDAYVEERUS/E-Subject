@@ -36,6 +36,7 @@ const CourseVideo = ({ current_user, course }) => {
 
 	return (
 		<> 
+		
 			<div className="courses-curriculum">
 				<ul>
 					{videos &&

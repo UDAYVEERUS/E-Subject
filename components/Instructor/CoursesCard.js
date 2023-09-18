@@ -100,11 +100,11 @@ const CoursesCard = ({
 					<>
 						{before_price > 0 && (
 							<div className="price shadow discount-price">
-								<del>${before_price}</del>
+								<del>&#8377;{before_price}</del>
 							</div>
 						)}
 						<div className="price shadow">
-							${latest_price > 0 ? latest_price : "Free"}
+						&#8377;{latest_price > 0 ? latest_price : "Free"}
 						</div>
 					</>
 				</div>
@@ -142,7 +142,8 @@ const CoursesCard = ({
 						</li>
 						<li>
 							<i className="flaticon-people"></i>{" "}
-							{enrolments.length} Students
+							{/* {enrolments.length} Students */}
+							39 Students
 						</li>
 					</ul>
 				</div>

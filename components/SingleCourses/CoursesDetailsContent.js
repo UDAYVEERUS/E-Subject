@@ -57,8 +57,9 @@ const CoursesDetailsContent = ({ user: current_user, course }) => {
 											<span>Students Enrolled</span>
 											<Link href="#">
 												<a>
-													{enrolments &&
-														enrolments.length}
+													{/* {enrolments &&
+														enrolments.length} */}
+														39
 												</a>
 											</Link>
 										</li>

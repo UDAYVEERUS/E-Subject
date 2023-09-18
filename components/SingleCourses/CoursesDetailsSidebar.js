@@ -158,11 +158,12 @@ const CoursesDetailsSidebar = ({ current_user, course, onCoupon }) => {
 							<li>
 								<div className="d-flex justify-content-between align-items-center">
 									<span>
-										<i className="flaticon-web"></i>{" "}
+										<i className="flaticon-web"></i>{""}
 										Enrolled
 									</span>
-									{course.enrolments &&
-										course.enrolments.length}{" "}
+									39&nbsp;
+									{/* {course.enrolments &&
+										course.enrolments.length}{" "} */}
 									students
 								</div>
 							</li>

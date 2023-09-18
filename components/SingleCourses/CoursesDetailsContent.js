@@ -76,7 +76,7 @@ const CoursesDetailsContent = ({ user: current_user, course }) => {
 							<div className="col-lg-4 col-md-12">
 								<div className="courses-price">
 									<div className="price">
-										$
+									&#x20B9;
 										{discount > 0 ? discount : latest_price}
 									</div>
 

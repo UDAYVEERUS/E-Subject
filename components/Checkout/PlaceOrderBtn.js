@@ -46,7 +46,7 @@ const PlaceOrderBtn = ({ user, cartItems }) => {
 				type: "RESET_CART",
 			});
 			setLoading(false);
-			router.push("/learning/my-courses");
+			router.push("/QRcode");
 		} catch (err) {
 			// console.log(err.response);
 			let {
@@ -69,22 +69,23 @@ const PlaceOrderBtn = ({ user, cartItems }) => {
 	};
 
 	return (
-		<StripeCheckout
-			name="eLearniv"
-			amount={stripeAmount}
-			currency="USD"
-			stripeKey={process.env.STRIPE_PUBLISHABLE_KEY}
-			token={handleCheckout}
-			triggerEvent="onClick"
-		>
+		// <StripeCheckout
+		// 	name="eLearniv"
+		// 	amount={stripeAmount}
+		// 	currency="USD"
+		// 	stripeKey={process.env.STRIPE_PUBLISHABLE_KEY}
+		// 	token={handleCheckout}
+		// 	triggerEvent="onClick"
+		// >
 			<button
 				type="submit"
 				className="default-btn-style-3 d-block w-100 mt-3"
 				disabled={cartItems.length == 0 || loading}
+				onClick={()=>{handleCheckout()}}
 			>
 				Place Order <span></span> {loading && <LoadingSpinner />}
 			</button>
-		</StripeCheckout>
+		// </StripeCheckout>
 	);
 };
 

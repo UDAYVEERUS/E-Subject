@@ -72,7 +72,7 @@ const PlaceOrderBtn = ({ user, cartItems }) => {
 		<StripeCheckout
 			name="eLearniv"
 			amount={stripeAmount}
-			currency="USD"
+			currency="INR"
 			stripeKey={process.env.STRIPE_PUBLISHABLE_KEY}
 			token={handleCheckout}
 			triggerEvent="onClick"

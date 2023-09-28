@@ -14,7 +14,7 @@ const ViewAllCourses = () => {
 								</span>
 								<h2>Feel Like You Are Missing Something?</h2>
 								<p>
-									eLearniv training programs can bring you a
+									Cofly training programs can bring you a
 									super exciting experience of learning
 									through online! You never face any negative
 									experience while enjoying your Classes

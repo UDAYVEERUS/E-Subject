@@ -19,7 +19,7 @@ const MainBanner = ({ user, courses }) => {
 									Flexible easy to access learning
 									opportunities can bring a significant change
 									in how individuals prefer to learn! The
-									eLearniv can offer you to enjoy the beauty
+									cofly can offer you to enjoy the beauty
 									of eLearning!
 								</p>
 

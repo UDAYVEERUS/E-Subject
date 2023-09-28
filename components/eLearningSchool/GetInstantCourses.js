@@ -15,7 +15,7 @@ const GetInstantCourses = ({ user }) => {
 									</span>
 									<h2>Self Development Course</h2>
 									<p>
-										eLearniv Self Development Course can
+										Cofly Self Development Course can
 										assist you in bringing the significant
 										changes in personal understanding and
 										reshaping the confidence to achieve the

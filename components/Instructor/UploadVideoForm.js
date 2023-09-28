@@ -5,7 +5,7 @@ import baseUrl from "@/utils/baseUrl";
 import LoadingSpinner from "@/utils/LoadingSpinner";
 import toast from "react-hot-toast";
 import { useRouter } from "next/router";
-
+import AWS from "aws-sdk"
 const INITIAL_VALUE = {
 	group_name: "",
 	title: "",
@@ -20,6 +20,7 @@ const INITIAL_VALUE = {
 const UploadVideoForm = ({ courseId }) => {
 	const { elarniv_users_token } = parseCookies();
 	const [video, setVideo] = useState(INITIAL_VALUE);
+	const [AwsVideo, setAwsVideo] = useState();
 	const [disabled, setDisabled] = React.useState(true);
 	const [loading, setLoading] = React.useState(false);
 	const [thumbPreview, setThumbPreview] = React.useState("");
@@ -103,18 +104,60 @@ const UploadVideoForm = ({ courseId }) => {
 		}
 	};
 
-	const handleVideoUpload = async () => {
-		const data = new FormData();
-		data.append("file", video.video);
-		data.append("upload_preset", process.env.UPLOAD_PRESETS);
-		data.append("cloud_name", process.env.CLOUD_NAME);
-		let response;
-		if (video.video) {
-			response = await axios.post(process.env.CLOUDINARY_VIDEO_URL, data);
-		}
+	const handleVideoUpload = async (video) => {
 
-		const mediaUrl = response.data.url;
-		return mediaUrl;
+		const s3 = new AWS.S3({
+			accessKeyId: "AKIAYXISNHSMBDCQ657I",
+			secretAccessKey: "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",
+			// region: process.env.AWS_REGION,
+		});
+
+		console.log("hehre")
+		const file = video
+		var files_uploaded_response = []
+		console.log(file, file, "REs")
+		if (file.length == undefined) {
+			// single file
+			// Setting up S3 upload parameters
+			const params = {
+				Bucket: "cofly",
+				Key: `${file.name}`,
+				ContentType: file.type, //<-- this is what you need!
+				ACL: 'public-read',//,
+				Body: file
+
+			};
+			const data = await s3.upload(params).promise()
+			// request.pdf_url = files_uploaded_response.push(data.Location)
+			console.log("res",data)
+			// return response.json(files_uploaded_response)
+			// return next() 
+			// ek setting hoti h AWS ki data ko public krne k liye wo zara check krna m bhi krta 
+			// return data.Location
+			setAwsVideo(data.Location)
+		}
+		// const data = new FormData();
+		// data.append("video", video);
+		// // data.append("upload_preset", process.env.UPLOAD_PRESETS);
+		// // data.append("cloud_name", process.env.CLOUD_NAME);
+		// let response;
+		// console.log(response,baseUrl,data,video)
+		// if (video) {
+		// 	response = await fetch(`${baseUrl}/api/upload`, {
+		// 		method: 'POST',
+		// 		body: data,
+		// 	});
+		// }
+		// if (response) {
+		// 	const data = await response.json();
+		// 	console.log('Uploaded Video URL:', data);
+		// } else {
+		// 	console.error('Failed to upload video.',response);
+		// }
+
+
+		// const mediaUrl = response.data.url;
+		// return mediaUrl;
 	};
 
 	const handleThumbUpload = async () => {
@@ -138,9 +181,10 @@ const UploadVideoForm = ({ courseId }) => {
 			setLoading(true);
 			let videoUrl = "";
 			let thumbUrl = "";
-			if (video.video) {
-				const videoUpload = await handleVideoUpload();
-				videoUrl = videoUpload.replace(/^http:\/\//i, "https://");
+			if (video) {
+				const videoUpload = AwsVideo
+				// videoUrl = videoUpload.replace(/^http:\/\//i, "https://");
+				videoUrl = videoUpload
 				const thumbUpload = await handleThumbUpload();
 				thumbUrl = thumbUpload.replace(/^http:\/\//i, "https://");
 			}
@@ -168,9 +212,9 @@ const UploadVideoForm = ({ courseId }) => {
 			const payloadHeader = {
 				headers: { Authorization: elarniv_users_token },
 			};
-
+			console.log(payloadData,"payload")
 			const response = await axios.post(url, payloadData, payloadHeader);
-
+			console.log(response)
 			toast.success(response.data.message, {
 				style: {
 					border: "1px solid #4BB543",
@@ -281,7 +325,7 @@ const UploadVideoForm = ({ courseId }) => {
 							type="file"
 							className="form-control file-control"
 							name="video"
-							onChange={handleChange}
+							onChange={(e) => { handleVideoUpload(e.target.files[0]) }}
 						/>
 					</div>
 				</div>
@@ -327,7 +371,7 @@ const UploadVideoForm = ({ courseId }) => {
 					<button
 						type="submit"
 						className="default-btn"
-						disabled={loading || disabled}
+						// disabled={loading || disabled}
 					>
 						<i className="flaticon-right-arrow"></i>
 						Upload Video <span></span>

@@ -43,7 +43,7 @@ const Cart = () => {
 
 						<li className="px-4 pb-2">
 							<h5 className="pt-2 fw-bold">
-								Total: ${cartAmout}{" "}
+								Total: &#8377;{cartAmout}{" "}
 								<del className="fs-14 ms-1 text-muted">
 									${cartAmoutMinus}
 								</del>

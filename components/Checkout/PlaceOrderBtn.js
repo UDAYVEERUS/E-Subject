@@ -69,6 +69,7 @@ const PlaceOrderBtn = ({ user, cartItems }) => {
 	};
 
 	return (
+
 		// <StripeCheckout
 		// 	name="eLearniv"
 		// 	amount={stripeAmount}
@@ -77,6 +78,7 @@ const PlaceOrderBtn = ({ user, cartItems }) => {
 		// 	token={handleCheckout}
 		// 	triggerEvent="onClick"
 		// >
+
 			<button
 				type="submit"
 				className="default-btn-style-3 d-block w-100 mt-3"

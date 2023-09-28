@@ -15,8 +15,10 @@ const CourseVideo = ({ current_user, course }) => {
 		const fetchVideos = async () => {
 			const url = `${baseUrl}/api/learnings/videos/${course.slug}`;
 			const response = await axios.get(url);
+
 			setVideos([{is_preview:true,video:"https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4"}]);
 			setPreview("https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4");
+
 			// console.log(response.data.videos);
 		};
 		fetchVideos();

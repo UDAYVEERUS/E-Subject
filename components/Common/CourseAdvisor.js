@@ -10,7 +10,7 @@ const CourseAdvisor = () => {
             <h2>Course Advisor</h2>
             <p>
 
-            Our cofky website offers accessible, interactive, and empowering courses. With top-notch instructors and user-friendly interfaces, it's a transformative learning experience.
+            Our cofly website offers accessible, interactive, and empowering courses. With top-notch instructors and user-friendly interfaces, it's a transformative learning experience.
 
             </p>
           </div>

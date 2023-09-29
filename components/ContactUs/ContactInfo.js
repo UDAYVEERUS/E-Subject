@@ -10,6 +10,7 @@ const ContactInfo = () => {
         Contact us today to get in touch with our dedicated team. Whether you have questions, feedback, or inquiries, we're here to assist you promptly. Your input matters to us!
         </p>
 
+
         <ul>
           <li>
             <div className="icon">

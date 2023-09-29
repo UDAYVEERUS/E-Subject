@@ -25,23 +25,23 @@ const handlePostRequest = async (req, res) => {
 	const { stripeTotal } = calculateCartTotal(cartItems);
 
 	try {
-		await stripeSecret.charges.create(
-			{
-				amount: stripeTotal,
-				currency: "usd",
-				source: "tok_mastercard",
-				receipt_email: buyer_email,
-				description: `Checkout | ${buyer_email} | ${userId}`,
-			},
-			{
-				idempotencyKey: uuidv4(),
-			}
-		);
+		// await stripeSecret.charges.create(
+		// 	{
+		// 		amount: stripeTotal,
+		// 		currency: "usd",
+		// 		source: "tok_mastercard",
+		// 		receipt_email: buyer_email,
+		// 		description: `Checkout | ${buyer_email} | ${userId}`,
+		// 	},
+		// 	{
+		// 		idempotencyKey: uuidv4(),
+		// 	}
+		// );
 
 		cartItems.forEach(async (cart) => {
 			Enrolment.create({
 				bought_price: cart.price,
-				payment_method: "Card",
+				payment_method: "QR",
 				buyer_name: buyer_name,
 				buyer_email: buyer_email,
 				buyer_avatar: buyer_avatar,

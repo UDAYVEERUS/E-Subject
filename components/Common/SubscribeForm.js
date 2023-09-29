@@ -67,9 +67,7 @@ const SubscribeForm = () => {
 						<span className="sub-title">Go At Your Own Pace</span>
 						<h2>Subscribe To Our Newsletter</h2>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua.
+						Stay updated with the latest news, exclusive offers, and valuable insights. Subscribe to our newsletter and never miss out!
 						</p>
 
 						<form

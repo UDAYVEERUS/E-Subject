@@ -9,7 +9,9 @@ const CourseAdvisor = () => {
             <span className="sub-title">Instructor</span>
             <h2>Course Advisor</h2>
             <p>
-            Our cofly website offers accessible, interactive, and empowering courses. With top-notch instructors and user-friendly interfaces, it's a transformative learning experience.
+
+            Our cofky website offers accessible, interactive, and empowering courses. With top-notch instructors and user-friendly interfaces, it's a transformative learning experience.
+
             </p>
           </div>
 
@@ -24,7 +26,10 @@ const CourseAdvisor = () => {
                   <h3>William James</h3>
                   <span className="sub-title">Project Management Expert</span>
                   <p>
-                  CoFly has revolutionized my learning experience. The courses are not only insightful but also convenient, allowing me to upskill effortlessly.
+
+                
+                  Cofly has revolutionized my learning experience. The courses are not only insightful but also convenient, allowing me to upskill effortlessly.
+
                   </p>
 
                   <ul className="social-link">
@@ -83,7 +88,9 @@ const CourseAdvisor = () => {
                   <h3>Sarah Taylor</h3>
                   <span className="sub-title">Agile Project Expert</span>
                   <p>
-                  As an eLearning enthusiast, CoFly is a goldmine of knowledge. The platform's engaging content and expert instructors make it my top choice.
+
+                  "As an eLearning enthusiast, Cofly is a goldmine of knowledge. The platform's engaging content and expert instructors make it my top choice."
+
                   </p>
                   <ul className="social-link">
                     <li>
@@ -141,7 +148,9 @@ const CourseAdvisor = () => {
                   <h3>James Robert</h3>
                   <span className="sub-title">Senior Developer</span>
                   <p>
-                  CoFly is a game-changer for education. The course variety, ease of use, and personalized support make learning a true pleasure.
+
+                  Cofly is a game-changer for education. The course variety, ease of use, and personalized support make learning a true pleasure.
+
                   </p>
                   <ul className="social-link">
                     <li>

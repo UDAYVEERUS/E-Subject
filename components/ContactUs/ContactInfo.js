@@ -12,6 +12,7 @@ const ContactInfo = () => {
           suspendisse ultrices gravida. Risus commodo viverra.
         </p>
 
+
         <ul>
           <li>
             <div className="icon">

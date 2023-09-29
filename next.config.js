@@ -26,6 +26,7 @@ const nextConfig = {
 		ignoreDuringBuilds: true,
 	},
 
+	
 	// Update here your access credential
 	env: {
 		JWT_SECRET: "asdfghjklnbvcxzqwertyuiopmkioprewqasderfgnujm",

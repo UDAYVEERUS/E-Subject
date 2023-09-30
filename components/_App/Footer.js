@@ -128,7 +128,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/terms-conditions">
-                      <a>Terms & Conditions</a>
+                      <a>Refund Policy</a>
                     </Link>
                   </li>
                 </ul>

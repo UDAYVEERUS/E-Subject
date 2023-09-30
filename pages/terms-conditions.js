@@ -9,10 +9,10 @@ export default function TermsConditionsPage({ user }) {
 			<Navbar user={user} />
 
 			<PageBanner
-				pageTitle="Terms & Conditions"
+				pageTitle="Refund Policy"
 				homePageUrl="/"
 				homePageText="Home"
-				activePageText="Terms & Conditions"
+				activePageText="Refund Policy"
 			/>
 
 			<div className="privacy-policy-area ptb-100">

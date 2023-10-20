@@ -14,7 +14,7 @@ const ViewAllCourses = () => {
 								</span>
 								<h2>Feel Like You Are Missing Something?</h2>
 								<p>
-									Cofly training programs can bring you a
+									E-Subject training programs can bring you a
 									super exciting experience of learning
 									through online! You never face any negative
 									experience while enjoying your Classes

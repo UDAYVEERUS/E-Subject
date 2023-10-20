@@ -70,7 +70,7 @@ export default function FAQPage({ user }) {
 								<AccordionItemHeading>
 									<AccordionItemButton>
 										How do I find a study abroad program on
-										cofly.in?
+										E-Subject.in?
 									</AccordionItemButton>
 								</AccordionItemHeading>
 								<AccordionItemPanel>

@@ -87,15 +87,15 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <i className="bx bx-map"></i>
-                    H-53, H Block, Sector 62, Noida, Uttar Pradesh 201301.
+                    Lorem, Ipsum Block America
                   </li>
                   <li>
                     <i className="bx bx-phone-call"></i>
-                    <a href="tel:+91-7303956035">+91- 7303956035</a>
+                    <a href="tel:+91-9999999999">+91-9999999999</a>
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>
-                    <a href="mailto:info@cofly.in">info@cofly.in</a>
+                    <a href="mailto:info@esubject.in">info@esubject.in</a>
                   </li>
                   {/* <li>
                     <i className="bx bxs-inbox"></i>
@@ -112,8 +112,8 @@ const Footer = () => {
                 <p>
                   <i className="bx bx-copyright"></i>
                   {currentYear} Powered by{' '}
-                  <a target="_blank" href="https://cofly.in/" rel="noreferrer">
-                    cofly.in  
+                  <a target="_blank" href="https://esubject.in/" rel="noreferrer">
+                    esubject.in  
                   </a>
                   &nbsp;All Right Reserved.
                 </p>

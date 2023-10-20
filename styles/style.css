@@ -475,6 +475,10 @@ Navbar Area CSS
   padding-left: 0;
   padding-right: 0;
 }
+.navbar-brand img{
+  height: 80px;
+  width: auto;
+}
 .edemy-nav .navbar ul {
   padding-left: 0;
   list-style-type: none;

@@ -87,11 +87,11 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <i className="bx bx-map"></i>
-                    H-53, H Block, Sector 62, Noida, Uttar Pradesh 201301.
+                    Lorem, Ipsum Block America
                   </li>
                   <li>
                     <i className="bx bx-phone-call"></i>
-                    <a href="tel:+91-7303956035">+91- 7303956035</a>
+                    <a href="tel:+91-9999999999">+91-9999999999</a>
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>

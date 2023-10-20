@@ -996,12 +996,12 @@ Navbar Area CSS
   left: 0;
 }
 
-@media only screen and (max-width: 1199px) {
+/* @media only screen and (max-width: 1199px) {
   .navbar-area {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-}
+} */
 /*================================================
 Main Banner Area CSS
 =================================================*/

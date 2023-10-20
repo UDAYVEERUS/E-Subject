@@ -22,15 +22,11 @@ const AboutUs = () => {
                   career benefits like getting a promotion, starting a new career
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Welcome to Cofly, your ultimate destination for eLearning excellence. Our passion for education, technology, and innovation drives us to provide a dynamic and engaging learning platform for students and professionals alike. With a team of dedicated instructors and experts, we're committed to delivering top-notch courses that equip you with the skills and knowledge needed to succeed in today's fast-paced world. 
                 </p>
 
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo.
+                Cofly is not just an eLearning website; it's a gateway to a brighter, more knowledgeable future. Join us on this educational journey and unlock your full potential. Discover, learn, and grow with CoFly.
                 </p>
 
                 <ul className="features-list">

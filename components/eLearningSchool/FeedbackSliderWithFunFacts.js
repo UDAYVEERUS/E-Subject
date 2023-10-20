@@ -32,7 +32,7 @@ const FeedbackSliderWithFunFacts = () => {
 									to Your Own Needs
 								</h2>
 								<p>
-									With the cofly, you can study whenever
+									With the E-Subject, you can study whenever
 									and wherever you choose. We have students in
 									over 175 countries and a global reputation
 									as a pioneer in the field.

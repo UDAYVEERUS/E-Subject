@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
 										directly, like information you enter
 										yourself, data about your participation
 										in courses, and data from third-party
-										platforms you connect with cofly. We
+										platforms you connect with E-Subject. We
 										also collect some data automatically,
 										like information about your device and
 										what parts of our Services you interact

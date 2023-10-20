@@ -30,7 +30,7 @@ const ContactInfo = () => {
               Mobile: <a href="tel:+91-7303956035">+91-7303956035</a>
             </p>
             <p>
-              Mail: <a href="mailto:info@cofly.in">info@cofly.in</a>
+              Mail: <a href="mailto:info@esubject.in">info@esubject.in</a>
             </p>
           </li>
           <li>

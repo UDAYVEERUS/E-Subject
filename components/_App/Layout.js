@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
 		<>
 			<Head>
 				<title>
-					Cofly | Learning Management System
+					E-Subject | Learning Management System
 				</title>
 				<meta
 					name="viewport"

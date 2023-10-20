@@ -27,7 +27,7 @@ export default function TermsConditionsPage({ user }) {
 									</i>
 								</p> */}
 								<h2>Refund Policy</h2>
-								<p>At Cofly Business Services, we are committed to providing our customers with
+								<p>At E-Subject Business Services, we are committed to providing our customers with
 									top-quality products and services. We understand that sometimes situations may arise
 									where you need to request a refund for a purchase you have made. This refund policy
 									outlines the guidelines and procedures for obtaining a refund from us to ensure a fair
@@ -45,7 +45,7 @@ export default function TermsConditionsPage({ user }) {
 								<h3>2. Refund Process</h3>
 								<p>To initiate a refund request, please follow these steps:</p>
 								<ul>
-									<li>Contact our customer support team at info@cofly.in to inform them of your request.</li>
+									<li>Contact our customer support team at info@E-Subject.in to inform them of your request.</li>
 									<li>Provide all necessary information, including your order number, the reason for the
 										refund, and any supporting documents.
 									</li>
@@ -80,9 +80,9 @@ export default function TermsConditionsPage({ user }) {
 								</p>
 								<h3>7. Contact Us</h3>
 								<p>If you have any questions or concerns about our refund policy, please contact our
-									customer support team at info@cofly.in. We are here to assist you and ensure your
+									customer support team at info@esubject.in. We are here to assist you and ensure your
 									satisfaction with our products and services.<br />
-									At Cofly Business Services, we value your trust and are dedicated to providing a positive
+									At E-Subject Business Services, we value your trust and are dedicated to providing a positive
 									customer experience. We strive to handle refund requests promptly and fairly, and we
 									appreciate your business.</p>
 								<h3>1. What Data We Get</h3>
@@ -93,7 +93,7 @@ export default function TermsConditionsPage({ user }) {
 										directly, like information you enter
 										yourself, data about your participation
 										in courses, and data from third-party
-										platforms you connect with cofly. We
+										platforms you connect with E-Subject. We
 										also collect some data automatically,
 										like information about your device and
 										what parts of our Services you interact

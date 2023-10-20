@@ -95,7 +95,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bx bx-envelope"></i>
-                    <a href="mailto:info@cofly.in">info@cofly.in</a>
+                    <a href="mailto:info@esubject.in">info@esubject.in</a>
                   </li>
                   {/* <li>
                     <i className="bx bxs-inbox"></i>
@@ -112,8 +112,8 @@ const Footer = () => {
                 <p>
                   <i className="bx bx-copyright"></i>
                   {currentYear} Powered by{' '}
-                  <a target="_blank" href="https://cofly.in/" rel="noreferrer">
-                    cofly.in  
+                  <a target="_blank" href="https://esubject.in/" rel="noreferrer">
+                    esubject.in  
                   </a>
                   &nbsp;All Right Reserved.
                 </p>

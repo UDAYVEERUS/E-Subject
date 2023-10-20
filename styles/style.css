@@ -65,7 +65,10 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.footer_logo img{
+  height: 100px;
+  width: auto;
+}
 p {
   color: #606060;
   margin-bottom: 15px;

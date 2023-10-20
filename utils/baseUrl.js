@@ -1,6 +1,6 @@
 const baseUrl =
 	process.env.NODE_ENV === "production"
-		? "https://www.cofly.in"
-		: "https://www.cofly.in";
+		? "https://esubject.in"
+		: "https://esubject.in";
 
 export default baseUrl;

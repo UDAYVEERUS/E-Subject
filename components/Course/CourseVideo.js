@@ -15,10 +15,8 @@ const CourseVideo = ({ current_user, course }) => {
 		const fetchVideos = async () => {
 			const url = `${baseUrl}/api/learnings/videos/${course.slug}`;
 			const response = await axios.get(url);
-
-			setVideos([{is_preview:true,video:"https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4"}]);
-			setPreview("https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4");
-
+			setVideos(response.data.videos);
+			setPreview(response.data.videos[0].video);
 			// console.log(response.data.videos);
 		};
 		fetchVideos();
@@ -37,8 +35,7 @@ const CourseVideo = ({ current_user, course }) => {
 	}, []);
 
 	return (
-		<> 
-		
+		<>
 			<div className="courses-curriculum">
 				<ul>
 					{videos &&
@@ -53,7 +50,6 @@ const CourseVideo = ({ current_user, course }) => {
 											{secondsToHms(v.video_length)}
 										</span>
 										{v.is_preview ? (
-											<a target="_blank" href="https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4">
 											<span
 												className="status"
 												onClick={() => {
@@ -63,9 +59,7 @@ const CourseVideo = ({ current_user, course }) => {
 											>
 												preview
 											</span>
-											</a>
 										) : alreadyBuy ? (
-											<a target="_blank" href="https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4">
 											<span
 												className="status"
 												onClick={() => {
@@ -75,7 +69,6 @@ const CourseVideo = ({ current_user, course }) => {
 											>
 												preview
 											</span>
-											</a>
 										) : (
 											<span
 												className="status locked"
@@ -91,7 +84,7 @@ const CourseVideo = ({ current_user, course }) => {
 				</ul>
 			</div>
 
-			{preview && <FsLightbox toggler={toggler} sources={["https://rishabhgbucket.s3.ap-south-1.amazonaws.com/Demo+Session+sat_3.mp4"]} />}
+			{preview && <FsLightbox toggler={toggler} sources={[preview]} />}
 		</>
 	);
 };

@@ -15,7 +15,6 @@ const CourseVideo = ({ current_user, course }) => {
 		const fetchVideos = async () => {
 			const url = `${baseUrl}/api/learnings/videos/${course.slug}`;
 			const response = await axios.get(url);
-			console.log(response,"res")
 			setVideos(response.data.videos);
 			setPreview(response.data.videos[0].video);
 			// console.log(response.data.videos);

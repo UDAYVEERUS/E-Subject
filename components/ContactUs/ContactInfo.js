@@ -8,6 +8,7 @@ const ContactInfo = () => {
         <h2>Get in Touch</h2>
         <p>
         Contact us to connect with our E-Subject community, where our team of experts is ready to assist you with any questions or inquiries. We value your feedback and potential partnership opportunities, so don't hesitate to reach out. Join our vibrant discussions, share your insights, and collaborate with like-minded individuals to enhance your eLearning experience.
+
         </p>
 
 

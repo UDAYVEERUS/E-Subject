@@ -3,16 +3,16 @@ import Navbar from "@/components/_App/Navbar";
 import PageBanner from "@/components/Common/PageBanner";
 import Footer from "@/components/_App/Footer";
 
-export default function PrivacyPolicyPage({user}) {
+export default function TermsConditionsPage({ user }) {
 	return (
 		<>
 			<Navbar user={user} />
 
 			<PageBanner
-				pageTitle="Privacy Policy"
+				pageTitle="Refund Policy"
 				homePageUrl="/"
 				homePageText="Home"
-				activePageText="Privacy Policy"
+				activePageText="Refund Policy"
 			/>
 
 			<div className="privacy-policy-area ptb-100">
@@ -20,12 +20,71 @@ export default function PrivacyPolicyPage({user}) {
 					<div className="row">
 						<div className="col-lg-12 col-md-12">
 							<div className="privacy-policy-content">
-								<p>
+								{/* <p>
 									<i>
-										This Privacy Policy was last updated on
-										January 1, 2022.
+										This Terms & Conditions was last updated
+										on January 1, 2022.
 									</i>
+								</p> */}
+								<h2>Refund Policy</h2>
+								<p>At Cofly Business Services, we are committed to providing our customers with
+									top-quality products and services. We understand that sometimes situations may arise
+									where you need to request a refund for a purchase you have made. This refund policy
+									outlines the guidelines and procedures for obtaining a refund from us to ensure a fair
+									and transparent process for both you and us.
 								</p>
+								<h3>1. Eligibility for Refund</h3>
+								<p>To be eligible for a refund, your request must meet the following criteria:</p>
+								<ul>
+									<li>Your request must be made within 1 day from the date of purchase</li>
+									<li>The service for which you are requesting a refund must be unused.</li>
+									<li>You must provide proof of purchase, such as a receipt or order number</li>
+									<li>The refund request must be related to service that falls within the scope of our refund
+										policy</li>
+								</ul>
+								<h3>2. Refund Process</h3>
+								<p>To initiate a refund request, please follow these steps:</p>
+								<ul>
+									<li>Contact our customer support team at info@cofly.in to inform them of your request.</li>
+									<li>Provide all necessary information, including your order number, the reason for the
+										refund, and any supporting documents.
+									</li>
+									<li>Our team will review your request and may require additional information to process it.</li>
+									<li>Once your request is approved, we will notify you and process the refund using the
+										original method of payment, unless otherwise specified.
+									</li>
+								</ul>
+								<h3>3. Refund Timeframe</h3>
+								<p>Refunds will be processed as quickly as possible, but please allow up to 14 business days
+									for the refund to be credited to your account. The exact timeframe may vary depending
+									on your payment method and financial institution.</p>
+								<h4>4. Non-Refundable Items and Services</h4>
+								<p>Please note that certain items and services are non-refundable. These include:</p>
+								<ul>
+									<li>Downloadable digital products that have been accessed or downloaded.</li>
+									<li>Services that have already been provided or initiated.</li>
+									<li>Customised or personalised services</li>
+								</ul>
+								<h3>5. Cancelling Subscription Services</h3>
+								<p>
+									If you are subscribed to any of our services, you can cancel your subscription at any
+									time. However, please be aware that cancellation may not result in a refund of any
+									subscription fees already paid, and the service will continue until the end of the current
+									billing cycle.
+								</p>
+								<h3>6. Changes to this Refund Policy</h3>
+								<p>We reserve the right to update or modify this refund policy at any time without prior
+									notice. Any changes will be effective immediately upon posting on our website. It is your
+									responsibility to review this policy periodically to stay informed about our refund
+									practices.
+								</p>
+								<h3>7. Contact Us</h3>
+								<p>If you have any questions or concerns about our refund policy, please contact our
+									customer support team at info@cofly.in. We are here to assist you and ensure your
+									satisfaction with our products and services.<br />
+									At Cofly Business Services, we value your trust and are dedicated to providing a positive
+									customer experience. We strive to handle refund requests promptly and fairly, and we
+									appreciate your business.</p>
 								<h3>1. What Data We Get</h3>
 
 								<blockquote className="blockquote">
@@ -34,7 +93,7 @@ export default function PrivacyPolicyPage({user}) {
 										directly, like information you enter
 										yourself, data about your participation
 										in courses, and data from third-party
-										platforms you connect with E-Subject. We
+										platforms you connect with cofly. We
 										also collect some data automatically,
 										like information about your device and
 										what parts of our Services you interact

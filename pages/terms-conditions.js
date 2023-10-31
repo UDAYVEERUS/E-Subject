@@ -1,31 +1,30 @@
-import React from "react";
+import React from 'react'
 import Navbar from "@/components/_App/Navbar";
 import PageBanner from "@/components/Common/PageBanner";
 import Footer from "@/components/_App/Footer";
+const termsConditions = ({ user }) => {
+    return (
+        <>
+            <Navbar user={user} />
+            <PageBanner
+                pageTitle="Terms and Conditions"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Terms and Conditions"
+            />
 
-export default function TermsConditionsPage({ user }) {
-	return (
-		<>
-			<Navbar user={user} />
-
-			<PageBanner
-				pageTitle="Terms & Conditions"
-				homePageUrl="/"
-				homePageText="Home"
-				activePageText="Terms & Conditions"
-			/>
-
-			<div className="privacy-policy-area ptb-100">
-				<div className="container">
-					<div className="row">
-						<div className="col-lg-12 col-md-12">
-							<div className="privacy-policy-content">
-								{/* <p>
+            <div className="privacy-policy-area ptb-100">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12">
+                            <div className="privacy-policy-content">
+                                {/* <p>
 									<i>
 										This Terms & Conditions was last updated
 										on January 1, 2022.
 									</i>
 								</p> */}
+
 								<h2>Refund Policy</h2>
 								<p>At E-Subject Business Services, we are committed to providing our customers with
 									top-quality products and services. We understand that sometimes situations may arise
@@ -213,4 +212,7 @@ export default function TermsConditionsPage({ user }) {
 			<Footer />
 		</>
 	);
+
 }
+
+export default termsConditions

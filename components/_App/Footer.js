@@ -89,13 +89,13 @@ const Footer = () => {
                     <i className="bx bx-map"></i>
                     LVS Arcade, Madhapur, 71, Jubilee Enclave, HITEC City, Hyderabad, Telangana 500081
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bx bx-phone-call"></i>
                     <a href="tel:+91-9999999999">+91-9999999999</a>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="bx bx-envelope"></i>
-                    <a href="mailto:info@esubject.in">info@esubject.in</a>
+                    <a href="mailto:team@esubject.in">team@esubject.in</a>
                   </li>
                   {/* <li>
                     <i className="bx bxs-inbox"></i>

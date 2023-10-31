@@ -87,7 +87,7 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <i className="bx bx-map"></i>
-                    Lorem, Ipsum Block America
+                    LVS Arcade, Madhapur, 71, Jubilee Enclave, HITEC City, Hyderabad, Telangana 500081
                   </li>
                   <li>
                     <i className="bx bx-phone-call"></i>

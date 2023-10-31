@@ -7,7 +7,8 @@ const ContactInfo = () => {
         <span className="sub-title">Contact Details</span>
         <h2>Get in Touch</h2>
         <p>
-        Contact us today to get in touch with our dedicated team. Whether you have questions, feedback, or inquiries, we're here to assist you promptly. Your input matters to us!
+        Contact us to connect with our E-Subject community, where our team of experts is ready to assist you with any questions or inquiries. We value your feedback and potential partnership opportunities, so don't hesitate to reach out. Join our vibrant discussions, share your insights, and collaborate with like-minded individuals to enhance your eLearning experience.
+
         </p>
 
 
@@ -17,7 +18,7 @@ const ContactInfo = () => {
               <i className="bx bx-map"></i>
             </div>
             <h3>Our Address</h3>
-            <p>H-53, H Block, Sector 62, Noida, Uttar Pradesh 201301.</p>
+            <p>LVS Arcade, Madhapur, 71, Jubilee Enclave, HITEC City, Hyderabad, Telangana 500081</p>
           </li>
           <li>
             <div className="icon">

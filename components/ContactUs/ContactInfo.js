@@ -25,11 +25,11 @@ const ContactInfo = () => {
               <i className="bx bx-phone-call"></i>
             </div>
             <h3>Contact</h3>
-            <p>
+            {/* <p>
               Mobile: <a href="tel:+91-7303956035">+91-7303956035</a>
-            </p>
+            </p> */}
             <p>
-              Mail: <a href="mailto:info@esubject.in">info@esubject.in</a>
+              Mail: <a href="mailto:team@esubject.in">team@esubject.in</a>
             </p>
           </li>
           <li>
